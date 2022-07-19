@@ -1,0 +1,176 @@
+/* =============== VARIABLE CSS ===============*/
+:root {
+	--header-height: 3.5rem;
+
+	/* ======== COLORS ======= */
+	--first-color: hsl(228, 66%, 53%);
+	--first-color-alt: hsl(228, 66%, 47%);
+	--first-color-light: hsl(228, 62%, 59%);
+	--first-color-lighten: hsl(228, 100%, 97%);
+	--body-color: #fff;
+	--container-color: #fff;
+	--border-color: hsl(228, 99%, 98%);
+	--second-color: hsl(25, 83%, 53%);
+	--title-color: hsl(228, 57%, 28%);
+	--text-color: hsl(228, 15%, 50%);
+	--text-color-light: hsl(228, 12%, 75%);
+	--button-n-container-color: linear-gradient(
+		101deg,
+		hsl(228, 66%, 53%),
+		hsl(228, 66%, 47%)
+	);
+	--button-n-container-color-alt: linear-gradient(
+		101deg,
+		hsl(228, 66%, 47%),
+		hsl(228, 66%, 53%)
+	);
+
+	/* ========== Fonts and Typography ========== */
+	--body-font: ;
+	--title-font: ;
+	--biggest-font-size: 2.25rem;
+	--h1-font-size: 1.5rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+	--normal-font-size: 0.938rem;
+	--small-font-size: 0.813rem;
+	--smaller-font-size: 0.75rem;
+
+	/* ========== Fonts Weight ========== */
+	--font-medium: 500;
+	--font-semi-bold: 600;
+
+	/* ========== Z Index ========== */
+	--z-tooltip: 10;
+	--z-fixed: 100;
+}
+
+/* Responsive Typography */
+@media screen and (min-width: 1024px) {
+	:root {
+		--biggest-font-size: 3rem;
+		--h1-font-size: 2.25rem;
+		--h2-font-size: 2rem;
+		--h3-font-size: 1.25rem;
+		--normal-font-size: 1rem;
+		--small-font-size: 0.875rem;
+		--smaller-font-size: 0.813rem;
+	}
+}
+
+/* ============ BASE STYLING ============ */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	background-color: var(--body-color);
+	color: var(--text-color);
+	transition: 0.3s;
+}
+
+h1,
+h2,
+h3 {
+	color: var(--title-color);
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img,
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button {
+	font-family: var(--body-font);
+	border: none;
+	outline: none;
+}
+
+/* ============== THEME ============== */
+/*========== Button Dark/Light ==========*/
+
+/* ========= Dark theme variables =========== */
+
+/* ======== Color changes in some aspects on dark theme ======== */
+
+/* ============== REUSABLE CSS CLASSES ============== */
+.container {
+	max-width: 1024px;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+
+.grid {
+	display: grid;
+}
+
+.section {
+	padding: 4.5rem 0 2rem;
+}
+
+.section__title {
+	font-size: var(--h2-font-size);
+	margin-bottom: 1rem;
+	font-family: var(--title-font);
+}
+
+.section__title span {
+	color: var(--second-color);
+}
+
+.main {
+	overflow: hidden;
+}
+
+/* ============= HEADER SECTION ============= */
+
+/* show menu */
+
+/* Change background header */
+
+/* Active link */
+
+/* ============ HOME SECTION ============ */
+
+/* =========== BRANDS SECTION ============ */
+
+/* ========== PRODUCT SECTION =========== */
+
+/* ============ WHY SECTION =========== */
+
+/* Rotate Arrow when header is clicked */
+
+/*=============== VIDEO SECTION ===============*/
+
+/* ========== CONTACT SECTION =========== */
+
+/* =========== SUBSCRIBE SECTION ============= */
+
+/* =========== FOOTER SECTION =========== */
+
+/* ========= SCROLL UP =========== */
+
+/* Show Scroll */
+
+/* =========== SCROLL BAR =========== */
+
+/* ============== BREAKPOINTS ============== */
